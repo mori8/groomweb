@@ -1,0 +1,22 @@
+body {
+    background-color: orange;
+    background-image: url("images/orange-bg.jpg");
+}
+h1 {
+    color: orange;
+    width: 105px;
+    margin: 50px auto;
+    border-bottom: 3px solid orange;
+}
+div {
+    background-color: floralwhite;
+    width: 500px;
+    padding: 50px;
+    margin: 50px auto;
+    border: 5px solid darkorange;
+    border-radius: 5px;
+}
+ul {
+    width: 100px;
+    margin: 30px auto;
+}
