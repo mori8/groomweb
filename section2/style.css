@@ -52,6 +52,10 @@ body {
     letter-spacing: 5px;
 }
 
+.section.skills {
+    background-image: url("images/icon-skills.png");
+}
+
 .section {
     background-image: url("images/icon-information.png");
     background-repeat: no-repeat;
@@ -75,8 +79,4 @@ body {
 .section li:hover {
     color: orangered;
     border-color: orangered;
-}
-
-.skills {
-    background-image: url("images/icon-skills.png");
 }
