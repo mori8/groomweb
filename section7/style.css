@@ -1,0 +1,92 @@
+/* CSS Reset */
+h1, h2, p, body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 100%;
+}
+
+body {
+    background-color: #dddddd;
+}
+
+.cover {
+    color: white;
+    position: relative;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: center;
+    background-image: url("images/background.png");
+    height: 50vh;
+    font-size: 10vw;
+}
+
+.cover h1 {
+    font-family: 'Montserrat', sans-serif;
+    background-color: orangered;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1;
+    padding: 0.1em 0.3em;
+    border-radius: 5px;
+}
+
+.wrapper {
+    width: 980px;
+    margin: 50px auto;
+}
+
+.section {
+    background-color: white;
+    margin: 50px 0;
+    padding: 30px;
+    text-align: right;
+    position: relative;
+}
+
+.section-contents {
+    display: inline-block;
+}
+
+/* Common */
+.clearfix::after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section p {
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+    color: #999999;
+}
+
+.section p:last-child {
+    margin-right: 0;
+}
+
+.section-cover {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin: 0 -150px;
+    transform: translateY(-50%);
+}
+
+.section:nth-child(even) .section-cover {
+    left: auto;
+    right: 0;
+}
+
+.section:nth-child(even) {
+    text-align: left;
+}
